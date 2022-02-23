@@ -18,4 +18,4 @@ sudo docker port test_sshd_container
 Try ssh into your container by using your ip-adress on your computer, example ssh 192.168.100.1:22.
 
 Windows-users
-# If you want to connect from another machine in the same network you need to pass a rule in windows firewall. Enable docker-backend on port 22
+# If you want to connect from another machine in the same network you need to add a rule on Windows firewall. Enable docker-backend on port 22
