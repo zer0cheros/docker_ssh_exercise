@@ -1,8 +1,9 @@
-# docker_ssh_exercise
+# Docker_ssh_exercise
 
-how to SSH into Docker containers using the docker run command and a Dockerfile.
+How to SSH into Docker containers using the docker run command and a Dockerfile.
 
-run the docker build command to create the Docker image
+Clone the Dockerfile and run the docker build command 
+
 # Building the docker Image
 sudo docker build -t name_on_the_image .
 
