@@ -10,7 +10,7 @@ sudo docker build -t name_on_the_image .
 Run docker run to create and run the container from the image telling Docker to run the image in the background (-d)
 
 # Running the container using the newly built image
-docker run -d --name name_on_container -p 22:22 name_on_the_image
+<code>docker run -d --name name_on_container -p 22:22 name_on_the_image</code>
 
 
 # Verify SSH connectivity between the Docker host and the container
